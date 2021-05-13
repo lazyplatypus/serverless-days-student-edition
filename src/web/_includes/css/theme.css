@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+.bg-base {
+  background-color: #eeeef0;
+}
+
+.fg-base {
+  color: #000060;
+}
+
+.default-font {
+  font-family: 'avenir next', avenir, sans-serif;
+}
+
+.code-font {
+  font-family: 'PT Mono', 'Consolas', monaco, monospace;
+}
+
+.quote-font {
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bg-base {
+    background-color: #000060;
+  }
+
+  .fg-base {
+    color: #eeeef0;
+  }
+}

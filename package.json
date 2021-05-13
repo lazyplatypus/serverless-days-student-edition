@@ -1,0 +1,33 @@
+{
+  "name": "serverlessdays-virtual-new",
+  "version": "0.0.1",
+  "description": "New ServerlessDays Virtual Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dotenv -- eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* dotenv -- eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ServerlessDays/serverlessdays-virtual-new.git"
+  },
+  "keywords": [],
+  "author": "Ant Stanley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ServerlessDays/serverlessdays-virtual-new/issues"
+  },
+  "homepage": "https://github.com/ServerlessDays/serverlessdays-virtual-new#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "clean-css": "^4.2.3",
+    "dotenv-cli": "^4.0.0",
+    "jsdom": "^16.4.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
